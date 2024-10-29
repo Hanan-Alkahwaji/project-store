@@ -8,9 +8,9 @@ export default function Footer() {
             <h3>Payment Options :</h3>
         </div>
         <div className="right">
-            <img src="./../../../public/assets/imgs/paypal.png" alt="" />
-            <img src="./../../../public/assets/imgs/visa.png" alt="" />
-            <img src="./../../../public/assets/imgs/cash.png" alt="" />
+            <img src="/project-store/assets/imgs/paypal.png" alt="" />
+            <img src="/project-store/assets/imgs/visa.png" alt="" />
+            <img src="/project-store/assets/imgs/cash.png" alt="" />
         </div>
       
     </section>

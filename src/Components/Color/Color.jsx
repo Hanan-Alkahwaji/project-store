@@ -22,7 +22,7 @@ export default function Color() {
         <div className="left">
           
             <div className="colorw" id='colorw'>
-            <img src="./../../../public/assets/imgs/watch color2.png" alt="" />
+            <img src="/project-store/assets/imgs/watch color2.png" alt="" />
 
             </div>
 

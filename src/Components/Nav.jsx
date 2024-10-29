@@ -32,13 +32,13 @@ export default function Nav({logo,ul,icons}) {
     document.body.classList.toggle("dark")
     if (document.body.classList.contains("dark")) {
        let icon=document.getElementById("moon")
-       icon.src="./../../public/assets/imgs/Sun_fill.png"
+       icon.src="/project-store/assets/imgs/Sun_fill.png"
         
       
     }
     else{
       let icon=document.getElementById("moon")
-      icon.src="./../../public/assets/imgs/moon.png"
+      icon.src="/project-store/assets/imgs/moon.png"
 
     }
   }
@@ -65,7 +65,7 @@ export default function Nav({logo,ul,icons}) {
 
       </ul>
       <div className="buttons">
-      <button id='bars'><img src="./../../public/assets/imgs/Menu_Alt_01.png" alt="" onClick={openNav}/></button>
+      <button id='bars'><img src="/project-store/assets/imgs/Menu_Alt_01.png" alt="" onClick={openNav}/></button>
       <button>   <img src={icons[0]} alt="" onClick={dark} id='moon'/></button>
       <div className="allcart">
       <button onClick={openCartPopup} ><img src={icons[1]} alt="" id='bcart'/></button>
@@ -84,7 +84,7 @@ export default function Nav({logo,ul,icons}) {
           <div className="foot">
             <h3>Total:</h3>
             <p id="total">$0.00</p>
-            <img src="./../../public/assets/imgs/can.png"  onClick={remove}  alt="" />
+            <img src="/project-store/assets/imgs/can.png"  onClick={remove}  alt="" />
           </div>
         </div>
         <div id="cartItem">Your cart is empty</div>

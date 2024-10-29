@@ -16,7 +16,7 @@ export default function Hero() {
              
             </div>
             <div className="right">
-                <img src="./../../../public/assets/imgs/hero.png" alt="" />
+                <img src="/project-store/assets/imgs/hero.png" alt="" />
             </div>
         </div>
 
