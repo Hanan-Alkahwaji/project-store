@@ -1,0 +1,88 @@
+.best{
+    margin-top: 100px;
+}
+.best .container {
+
+    display: flex;
+    width: 80%;
+    margin-left: 70px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.best .container .card{
+    background-color: rgba(128, 128, 128, 0.137);;
+    display: flex;
+    width: 45%;
+    height: 250px;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+  
+}
+.best .container .card::after{
+    content: '25%';
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+    padding-bottom: 5px;
+    background: rgb(195,95,12);
+    background: linear-gradient(90deg, rgba(195,95,12,1) 2%, rgba(253,127,0,1) 40%, rgba(255,204,50,1) 100%);
+    color: white;
+    position: absolute;
+    top: -20px;
+    left:93%;
+  
+
+}
+.best .container .card .info{
+    margin-left: 5px;
+}
+.best .container .card .info h1{
+    font-size: 24px;
+    font-weight: 300px;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+.best .container .card .info p{
+    color: var(--colorp);
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.best .container .card img{
+    width: 50%
+}
+@media screen and (max-width:992px){
+    .best .container .card{
+        width: 400px;
+    }
+    .best .container{
+        gap: 28px;
+    }
+
+}
+
+@media screen and (max-width:650px){
+    .best .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-left: 20px;
+        gap: 18px;
+
+    }
+    .best .container .card{
+        background-color: rgba(128, 128, 128, 0.137);;
+        display: flex;
+        width: 250px;
+        height: 250px;
+        align-items: center;
+        border-radius: 8px;
+        position: relative;
+      
+    }
+    
+}

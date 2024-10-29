@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+
+}
+:root{
+    --black:rgba(29, 33, 48, 1);
+    --colorp:rgba(67, 73, 91, 1);
+    --out:rgba(128, 128, 128, 0.395);
+}
+body.dark{
+    --black:#ffff;
+    --colorp:#ffff;
+    background-color: rgba(0, 0, 0, 0.94);
+    --out:#ffff;
+
+
+}
+html{
+    scroll-behavior: smooth;
+}

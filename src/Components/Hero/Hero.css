@@ -1,0 +1,90 @@
+.hero{
+    background-color: rgba(128, 128, 128, 0.137);
+    margin-top: 60px;
+    height:calc(100vh - 120px);
+    border-radius: 13px;
+    
+
+}
+.hero .container{
+    display: flex;
+    align-items: center;
+}
+.hero .container .left{
+    width: 50%;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.hero .container .left h4{
+    color: rgba(195, 94, 12, 0.789) ;
+  
+   
+}
+.hero .container .left h1{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 50px;
+    color: var(--black);
+    
+}
+.hero .container .left p{
+    color: var( --colorp);
+}
+.hero .container .left a button{
+    width: 30%;
+    height: 35px;
+    border-radius: 16px;
+    background: rgb(195,95,12);
+    background: linear-gradient(90deg, rgba(195,95,12,1) 2%, rgba(253,127,0,1) 40%, rgba(255,204,50,1) 100%);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: beige;
+}
+.hero .container .left button:hover{
+    border: 2px solid var(--black);
+}
+.hero .container .left button:active{
+    transform: scale(0.9);
+}
+
+.hero .container .right{
+    width: 50%;
+    
+}
+.container .right img{
+    width: 80%;
+    margin-top: 20px;
+}
+@media screen and (max-width:650px) {
+         .hero{
+            height: max-content;
+         }
+         .hero .container{
+            display: flex;
+            flex-wrap: wrap;
+         }
+        .hero .container .left{
+            width: 70%;
+            padding-left: 20px;
+        }
+        .hero .container .left h1{
+            width: 270px;
+        }
+        .hero .container .left p{
+            width: 100%;
+        }
+        .container .right img{
+            width: 205px;
+        }
+        .hero .container .left a button{
+            width: 170px;
+        }
+        
+    
+}
+ 
